@@ -37,6 +37,10 @@ nav {
     align-items: center;
 }
 
+.mobile-menu {
+    display: none;
+}
+
 /* Note: pagemaker is reused in footer with inverted colors */
 
 .pagemaker {
@@ -157,5 +161,8 @@ footer {
     }
     .blue-blob {
         width: 100vw;
+    }
+    .mobile-menu {
+        display: block;
     }
 }
