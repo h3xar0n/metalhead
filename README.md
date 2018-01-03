@@ -2,7 +2,7 @@
 
 ## Setup
 
-No setup or library needed, just download and enjoy! 
+No install or build needed, just download and enjoy! 
 
 ## Frameworks and Libraries 
 
