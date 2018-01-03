@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "CircularStd";
-    src: url("./fonts/circular-medium.otf");
+    src: url("./fonts/circular-bold.otf");
 }
 
 /* Normalize */
@@ -47,7 +47,7 @@ nav {
 }
 
 .main-nav {
-    width: 20vw;
+    width: 300px;
     display: flex;
     justify-content: space-between;
 }
@@ -63,6 +63,7 @@ nav {
 .download {
     width: 150px;
     height: 49px;
+    border: 1px solid #ffffff;
     border-radius: 100px;
     background-color: #000000;
     font-family: 'CircularStd';
@@ -73,8 +74,29 @@ nav {
 }
 
 .download:hover {
+    border: 1px solid #000000;
     background-color: #ffffff; 
     color: #000000;
     transition: 0.2s;
     cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    height: 280px;
+    background-color: #000000;
+    padding: 120px 77px;
+}
+
+.desktop-footer {
+    display: flex;
+}
+
+.desktop-footer .pagemaker {
+    color: #ffffff;
+}
+
+.desktop-footer .pagemaker .text-style-1 {
+    color: #8b8b8b;
 }
