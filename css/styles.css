@@ -1,0 +1,19 @@
+/* Normalize */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between
+}
+
+.nav-button-group {
+    margin: 0 10vw;
+    height: 100%;
+    border-bottom: 1px solid #eeeeee; 
+}
