@@ -1,6 +1,6 @@
 # Metal Test
 
-No setup or library needed, just download and enjoy! No frameworks or libraries used.
+No setup or library needed, just download and enjoy! Vue was used for the dropdown menu, and as you know, Lottie was used for the animation.
 
 ## Note on the animation
 
