@@ -1,6 +1,12 @@
 # Metal Test
 
-No setup or library needed, just download and enjoy! Vue was used for the dropdown menu, and as you know, Lottie was used for the animation.
+## Setup
+
+No setup or library needed, just download and enjoy! 
+
+## Frameworks and Libraries 
+
+Vue was used for the dropdown menu. I used plain CSS (flexbox for responsiveness) because Bootstrap would be overkill/not ideal for precise spacing. Lottie was used for the animation, but since the CDN had some issues, I simply used the import in demo.html.
 
 ## Note on the animation
 
