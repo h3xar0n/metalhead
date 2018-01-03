@@ -17,3 +17,21 @@ nav {
     height: 100%;
     border-bottom: 1px solid #eeeeee; 
 }
+
+.pagemaker {
+    width: 134px;
+    height: 33px;
+    font-family: CircularStd;
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b;
+  }
+  
+  .pagemaker .text-style-1 {
+    color: #363636;
+  }
