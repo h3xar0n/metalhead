@@ -99,8 +99,18 @@ nav {
     justify-content: center;
 }
 
-.feature img {
-    margin: 80px auto;
+.phone-animation {
+    position: relative;
+    margin: 80px;
+}
+
+.blue-blob {
+    position: absolute;
+    width: 682px;
+    left: -133px;
+    height: 100%;
+    border: none;
+    z-index: -1;
 }
 
 /* Footer */
