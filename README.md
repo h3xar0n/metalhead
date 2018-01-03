@@ -1,5 +1,7 @@
 # Metal Test
 
+See the demo here:
+
 ## Setup
 
 No install or build needed, just download and enjoy! 
@@ -10,4 +12,4 @@ Vue was used for the dropdown menu. I used plain CSS (flexbox for responsiveness
 
 ## Note on the animation
 
-iFrame is definitely not an ideal solution. In the interests of time and getting a visually complete prototype, this was a quick fix as opposed to pasting the demo code or importing it (which wasn't CORS compliant here). With a system such as Webpack and a framework such as Vue, it would be fine to divide huge files and build them together.
+iFrame is definitely not an ideal solution, but in the interests of getting a visually complete prototype in time, this was a quick fix as opposed to pasting the demo code or importing it (which wasn't CORS compliant here). With a system such as Webpack and a framework such as Vue, it would be fine to divide huge files and build them together, or to dive into Lottie's docs to learn more about how it works.
