@@ -5,14 +5,17 @@
     src: url("./fonts/circular-bold.otf");
 }
 
-/* Normalize */
+/* Remove usual styling */
 
 body {
     padding: 0;
     margin: 0;
 }
 
-/* Assuming accessibility is not an issue for activated buttons: */
+
+a {
+    text-decoration: none;
+}
 
 button:focus {
     outline: 0;
@@ -81,6 +84,9 @@ nav {
     font-weight: bold;
     color: #ffffff;
     transition: 0.2s;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .download:hover {
@@ -96,7 +102,16 @@ nav {
 .feature {
     height: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: center;   
+}
+
+.special-button .download {
+    width: 162px;
+    height: 49px;
+    padding: 10px;
+    position: absolute;
+    right: 77px;
+    top: 800px;
 }
 
 .phone-animation {
@@ -131,4 +146,16 @@ footer {
 
 .desktop-footer .pagemaker .text-style-1 {
     color: #8b8b8b;
+}
+
+@media (max-width: 950px) {
+    .download {
+        display: none;
+    }
+    .phone-animation img {
+        max-width: 80vw;
+    }
+    .blue-blob {
+        width: 100vw;
+    }
 }

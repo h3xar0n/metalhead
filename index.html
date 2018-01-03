@@ -10,10 +10,11 @@
     <link rel="import" href="animations/demo.html">
 </head>
 
-<body>
-
+<body id="app">
     <nav>
         <div class="nav-button-group">
+            <img v-if="mobileOpen" class="mobile-menu" src="images/close.svg" alt="">
+            <img v-if="!mobileOpen" class="mobile-menu" src="images/menu.svg" alt="">
             <div class="pagemaker">page<span class="text-style-1">maker</span>
             </div>
             <div class="main-nav">
@@ -25,6 +26,7 @@
                 <button class="download">Download</button>
             </a>
         </div>
+        
     </nav>
 
     <section class="feature">
@@ -34,6 +36,13 @@
         </div>
     </section>
 
+    <a class="special-button" href="https://www.google.com" target="_blank">
+        <button class="download">
+            <img src="images/button-indicator.svg" alt="">
+            Download
+        </button>
+    </a>
+
     <footer>
         <div class="desktop-footer">
             <div class="pagemaker">page<span class="text-style-1">maker</span>
@@ -41,6 +50,7 @@
         </div>
         <div class="mobile-footer"></div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="js/scripts.js"></script>
 </body>
 

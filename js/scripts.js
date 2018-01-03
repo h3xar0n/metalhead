@@ -1,11 +1,37 @@
-document.addEventListener("DOMContentLoaded", function(){
-    console.log('bing');
-    var animation = bodymovin.loadAnimation({
-        container: document.getElementById('lottie'), // Required
-        path: 'data.json', // Required
-        renderer: 'svg/canvas/html', // Required
-        loop: true, // Optional
-        autoplay: true, // Optional
-        name: "Hello World", // Name for future reference. Optional.
-    })
-});
+new Vue({
+    el: '#app',
+    
+    ready: function()
+    {
+      var self = this
+      window.addEventListener('click', function(e){
+        if (! e.target.parentNode.classList.contains('menu__link--toggle'))
+        {
+          self.close()
+        }
+      }, false)
+    },
+    
+    data: {
+      dropDowns: {
+        ranking: { open: false}  
+      }
+    },
+    
+    methods: {
+      toggle: function(dropdownName)
+      {
+        //alert(dropdownName)
+         this.dropDowns[dropdownName].open = !this.dropDowns[dropdownName].open;
+      },
+      
+      close: function()
+      {
+        for (dd in this.dropDowns)
+        {
+          this.dropDowns[dd].open = false;    
+        }
+      }
+    }
+    
+  })
